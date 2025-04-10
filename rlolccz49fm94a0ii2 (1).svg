@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Gradient definitions -->
+  <defs>
+    <!-- Vibrant blue gradient for outer circle -->
+    <linearGradient id="vibrantBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00BFFF" />
+      <stop offset="100%" stop-color="#0033AA" />
+    </linearGradient>
+
+    <!-- Arrowhead marker -->
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="0" refY="4" orient="auto">
+      <polygon points="0 2, 8 4, 0 6" fill="#00CED1" />
+    </marker>
+  </defs>
+
+  <!-- Background Circles -->
+  <circle cx="250" cy="250" r="230" fill="url(#vibrantBlue)" /> <!-- Vibrant outer circle -->
+  <circle cx="250" cy="250" r="210" fill="#0A0A20" />
+
+  <!-- Avengers-style A outline only -->
+  <g fill="none" stroke="#00CED1" stroke-width="10">
+    <path d="M150,360 L250,90 L350,360 L310,360 L250,200 L190,360 Z" />
+  </g>
+
+  <!-- Zigzag Arrow Path (smaller arrowhead) -->
+  <path d="M110 340 
+           L200 270 
+           L210 270 
+           L240 290 
+           L270 260 
+           L300 280 
+           L330 210" 
+        fill="none" 
+        stroke="#00CED1" 
+        stroke-width="10" 
+        marker-end="url(#arrowhead)" />
+
+  <!-- Text (white with glow) -->
+  <text x="250" y="400"
+        font-family="Copperplate"
+        font-size="48"
+        font-weight="bold"
+        text-anchor="middle"
+        fill="#FFFFFF"
+        style="text-shadow: 0 0 6px #FFFFFF;">AGUYAN</text>
+</svg>
