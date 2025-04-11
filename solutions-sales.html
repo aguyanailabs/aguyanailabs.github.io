@@ -118,6 +118,14 @@
     </main>
 
     <footer class="site-footer">
-        </footer>
+        <div class="container">
+             <div class="footer-content"> /* ... Footer Links ... */ </div>
+             <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> AguyanAI. All rights reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+        <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+    </footer>
 </body>
 </html>
