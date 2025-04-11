@@ -3,196 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AguyanAI: Intelligent Integration, Autonomously Connected (Dark Mode)</title>
-    <style>
-        /* Basic placeholder styles HINTING at a MODERN DARK theme */
-        /* --- PASTE THE DARK THEME <style> CONTENT FROM PREVIOUS RESPONSE HERE --- */
-        /* NOTE: Keeping it brief here to avoid excessive length. Use the full style block from before. */
-        body { background-color: #1A1D21; color: #EAEAEA; font-family: sans-serif; line-height: 1.7; margin: 0; }
-        .container { max-width: 1200px; margin: auto; padding: 0 30px; }
-        header, footer { background-color: #24282E; padding: 1.5rem 0; color: #EAEAEA;}
-        nav .logo { float: left; font-weight: bold; font-size: 1.4em; color: #FFFFFF; margin-left: 20px; }
-        nav ul { list-style: none; padding: 0; text-align: center; margin: 0; }
-        nav ul li { display: inline; margin: 0 18px; }
-        nav a { text-decoration: none; color: #A0A7B1; }
-        nav .nav-buttons { float: right; margin-right: 20px; }
-        section { padding: 60px 20px; border-bottom: 1px solid #3A3F47; }
-        h1, h2, h3 { font-weight: 600; text-align: center; margin-bottom: 25px; color: #FFFFFF;}
-        h1 { font-size: 2.8em; } h2 { font-size: 2.2em; } h3 { font-size: 1.5em; color: #E0E0E0; text-align: left;}
-        .cta-button { display: inline-block; background-color: #26C6DA; color: #111111; padding: 14px 30px; text-decoration: none; border-radius: 5px; margin: 10px 5px; font-weight: 600; border: none; }
-        .cta-button-secondary { background-color: transparent; color: #26C6DA; border: 1px solid #26C6DA; }
-        /* --- Add the rest of the dark theme styles here --- */
-    </style>
+    <title>AguyanAI: Intelligent Autonomy for Your Business</title>
+    <!--title>AguyanAI: Orchestrating Complexity with Agentic AI.</title>
+    <title>AguyanAI: Automate, Integrate, Elevate.</title-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: #1A1D21;">
+<body>
 
-    <header>
-        <nav class="container">
-            <a href="index.html" class="logo">AguyanAI</a>
-            <div class="nav-buttons">
-                 <a href="contact.html">Contact Sales</a> <a href="#">Sign In</a> <a href="demo.html" class="cta-button cta-button-secondary" style="padding: 10px 20px;">Request a Demo</a> </div>
-            <ul>
-                <li><a href="platform.html">Platform</a></li> <li><a href="solutions.html">Solutions</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="company.html">Company</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">AguyanAI</a>
+                </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="platform.html">Platform</a></li>
+                    <li class="dropdown">
+                        <a href="#">Solutions</a>
+                        <ul class="dropdown-content">
+                             <li><a href="solutions-cybersecurity.html">Cybersecurity</a></li>
+                             <li><a href="solutions-sales.html">Sales</a></li>
+                             <li><a href="solutions-manufacturing.html">Manufacturing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main> <section id="hero" class="hero-section" style="border-bottom: 1px solid #3A3F47;">
+    <main>
+        <section class="hero-section text-center">
             <div class="container">
-                <h1>Elevate Your Integration Strategy</h1>
-                <p>AguyanAI uses autonomous AI agents to understand your goals and seamlessly connect your entire application ecosystem, adapting intelligently to changes.</p>
-                <div style="height: 200px; background: #24282E; border: 1px solid #3A3F47; margin: 30px auto; max-width: 600px; display: flex; align-items: center; justify-content: center; border-radius: 8px; color: #555;">[Glowing Network Visualization or Dark UI Snippet]</div>
-                <a href="demo.html" class="cta-button">Request a Personalized Demo</a>
-                <a href="platform.html" class="cta-button cta-button-secondary">Explore Platform</a>
+                <h1>Unlock Intelligent Automation with AguyanAI</h1>
+                <p class="sub-headline">Leverage autonomous AI agents to seamlessly integrate systems and automate critical processes in Cybersecurity, Sales, and Manufacturing.</p>
+                <img src="#" alt="Abstract graphic showing interconnected AI nodes" class="hero-image">
+                <a href="contact.html#demo" class="button button-primary">Request a Personalized Demo</a>
+                <a href="platform.html" class="button button-secondary">Explore Platform Features</a>
             </div>
         </section>
 
-        <section id="problem-solution" class="problem-solution-section container">
-            <div class="problem-column">
-                <h3>The Integration Challenge</h3>
+        <section class="problem-section">
+            <div class="container">
+                <h2>Tired of Siloed Systems & Manual Overload?</h2>
                 <ul>
-                    <li><span class="icon-placeholder">C</span><strong>Complexity:</strong> Manually mapping fields and logic across diverse systems is intricate and error-prone.</li>
-                    <li><span class="icon-placeholder">B</span><strong>Brittleness:</strong> API changes or schema updates frequently break fragile point-to-point connections.</li>
-                    <li><span class="icon-placeholder">S</span><strong>Slow Deployment:</strong> Traditional integration projects take significant time and resources, delaying business value.</li>
-                    <li><span class="icon-placeholder">M</span><strong>High Maintenance:</strong> Constant monitoring, troubleshooting, and fixes drain valuable developer resources.</li>
-                </ul>
-            </div>
-            <div class="solution-column">
-                <h3>The AguyanAI Advantage</h3>
-                 <ul>
-                    <li><span class="icon-placeholder" style="background-color: rgba(38, 198, 218, 0.1); color: #26C6DA;">A</span><strong>Autonomous Agents:</strong> AI understands intent, discovers APIs, and intelligently builds robust integrations.</li>
-                    <li><span class="icon-placeholder" style="background-color: rgba(38, 198, 218, 0.1); color: #26C6DA;">A</span><strong>Adaptive Connections:</strong> Agents actively monitor and automatically adjust to system changes, ensuring resilience.</li>
-                    <li><span class="icon-placeholder" style="background-color: rgba(38, 198, 218, 0.1); color: #26C6DA;">A</span><strong>Accelerated Deployment:</strong> Move rapidly from goal definition to live, operational integrations.</li>
-                    <li><span class="icon-placeholder" style="background-color: rgba(38, 198, 218, 0.1); color: #26C6DA;">I</span><strong>Intelligent Automation:</strong> Proactive error handling and self-healing capabilities minimize manual intervention.</li>
+                    <li>Disconnected tools hindering visibility and efficiency.</li>
+                    <li>Repetitive, error-prone manual tasks slowing down operations.</li>
+                    <li>Complex workflows that are difficult to manage and scale.</li>
+                    <li>Security gaps created by poor integration.</li>
+                    <li>Missed sales opportunities due to slow processes & data gaps.</li>
+                    <li>Operational inefficiencies on the manufacturing floor.</li>
                 </ul>
             </div>
         </section>
 
-        <section id="how-it-works" style="background-color: #1A1D21;">
-             <div class="container">
-                <h2>How AguyanAI Works</h2>
-                <div class="how-it-works-steps">
+        <section class="solution-intro">
+            <div class="container">
+                 <h2>The Future is Agentic. The Future is AguyanAI.</h2>
+                 <p>AguyanAI provides the solution: AI agents that understand your goals, plan actions, and execute autonomously across your digital landscape. We bridge the gaps between systems and automate complexity like never before.</p>
+                 <img src="#" alt="Diagram showing Systems -> AguyanAI -> Outcomes" class="solution-diagram">
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="container">
+                <h2>Intelligent Automation in Action</h2>
+                <div class="steps-container">
+                    <div class="step">
+                        <span class="step-icon">🔗</span> <h3>1. Connect</h3>
+                        <p>Securely link AguyanAI to your existing tools & platforms (CRM, ERP, SIEM, MES, APIs, etc.).</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-icon">🎯</span>
+                        <h3>2. Define Goals</h3>
+                        <p>Specify business objectives and processes you want to automate or optimize.</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-icon">🤖</span>
+                        <h3>3. Deploy Agents</h3>
+                        <p>Our AI agents understand goals, plan actions, and coordinate across systems.</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-icon">⚙️</span>
+                        <h3>4. Automate & Adapt</h3>
+                        <p>Agents execute tasks, handle exceptions, learn, and continuously optimize.</p>
+                    </div>
                      <div class="step">
-                        <div class="icon-placeholder">1</div>
-                        <h3>Define Goal</h3>
-                        <p>Clearly articulate your desired integration outcome using natural language or our intuitive interface.</p>
-                    </div>
-                    <div class="step">
-                        <div class="icon-placeholder">2</div>
-                        <h3>AI Agent Design & Deploy</h3>
-                        <p>AguyanAI agents analyze, map data flows, generate secure logic, and deploy autonomously.</p>
-                    </div>
-                    <div class="step">
-                         <div class="icon-placeholder">3</div>
-                        <h3>Autonomous Operation</h3>
-                        <p>Agents execute integrations reliably, handling complex transformations and API interactions.</p>
-                    </div>
-                    <div class="step">
-                         <div class="icon-placeholder">4</div>
-                        <h3>Monitor & Adapt</h3>
-                        <p>Gain full observability while agents proactively detect changes and adapt workflows automatically.</p>
+                        <span class="step-icon">📊</span>
+                        <h3>5. Monitor & Insight</h3>
+                        <p>Gain real-time visibility and derive actionable intelligence.</p>
                     </div>
                 </div>
-                 <p style="text-align: center; margin-top: 40px;"><a href="platform.html" class="cta-button cta-button-secondary">Learn More About Our Technology</a></p>
-             </div>
-        </section>
-
-        <section id="features-preview" style="background-color: #1A1D21;"> <div class="container">
-                <h2>Core Platform Capabilities</h2>
-                <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));"> <div class="feature-block">
-                        <div class="icon-placeholder">A</div>
-                        <h3>Autonomous Workflow Creation</h3>
-                        <p>Describe your integration need; let AI design and build the optimal flow.</p>
-                    </div>
-                     <div class="feature-block">
-                         <div class="icon-placeholder">N</div>
-                        <h3>Natural Language Interface</h3>
-                        <p>Leverage intuitive language to define complex integrations quickly.</p>
-                    </div>
-                     <div class="feature-block">
-                         <div class="icon-placeholder">S</div>
-                        <h3>Self-Healing Connections</h3>
-                        <p>Agents intelligently adapt to evolving APIs and system changes.</p>
-                    </div>
-                      <div class="feature-block">
-                         <div class="icon-placeholder">I</div>
-                        <h3>Intelligent Data Mapping</h3>
-                        <p>AI-powered suggestions and automation for complex data transformations.</p>
-                    </div>
-                </div>
-                 <p style="text-align: center; margin-top: 30px;"><a href="features.html" style="color:#26C6DA; font-weight: 500;">Explore All Features &rarr;</a></p>
             </div>
         </section>
 
-        <section id="use-cases-preview" style="background-color: #1A1D21;"> <div class="container">
-                <h2>Transforming Business Processes</h2>
-                <div class="use-cases-container">
-                    <div class="use-case-card">
-                        <h3>Sales & Marketing Synergy</h3>
-                        <p>Seamlessly sync lead, contact, and campaign data across CRM and Marketing platforms.</p>
-                        <a href="solutions.html">Explore Solution &rarr;</a>
+        <section class="solutions-overview">
+            <div class="container">
+                <h2>Tailored Automation for Your Domain</h2>
+                <div class="solutions-grid">
+                    <div class="solution-card">
+                        <img src="#" alt="Cybersecurity icon" class="card-icon">
+                        <h3>Cybersecurity</h3>
+                        <h4>Proactive Defense, Automated Response</h4>
+                        <p>Enhance threat detection, automate incident response, and streamline compliance.</p>
+                        <a href="solutions-cybersecurity.html" class="learn-more">Learn More &rarr;</a>
                     </div>
-                     <div class="use-case-card">
-                        <h3>Finance Automation</h3>
-                        <p>Streamline order-to-cash cycles connecting ERP, Billing, and Payment gateways.</p>
-                        <a href="solutions.html">Explore Solution &rarr;</a>
+                    <div class="solution-card">
+                         <img src="#" alt="Sales icon" class="card-icon">
+                        <h3>Sales</h3>
+                        <h4>Accelerate Revenue, Empower Teams</h4>
+                        <p>Automate lead routing, enrich CRM data, personalize outreach, and optimize the pipeline.</p>
+                        <a href="solutions-sales.html" class="learn-more">Learn More &rarr;</a>
                     </div>
-                     <div class="use-case-card">
-                         <h3>Unified Customer View</h3>
-                         <p>Integrate support, sales, and product data to build a comprehensive Customer 360 profile.</p>
-                         <a href="solutions.html">Explore Solution &rarr;</a>
-                     </div>
+                    <div class="solution-card">
+                         <img src="#" alt="Manufacturing icon" class="card-icon">
+                        <h3>Manufacturing</h3>
+                        <h4>Optimize Operations, Enhance Quality</h4>
+                        <p>Automate supply chain tasks, enable predictive maintenance, and ensure quality control.</p>
+                        <a href="solutions-manufacturing.html" class="learn-more">Learn More &rarr;</a>
+                    </div>
                 </div>
-                 <p style="text-align: center; margin-top: 40px;"><a href="solutions.html" style="color: #26C6DA; font-weight: 500;">Discover More Use Cases</a></p>
             </div>
         </section>
 
-        <section id="social-proof" style="background-color: #1A1D21;">
-             <div class="container">
-                <h2 style="color: #A0A7B1; font-weight: 400;">Trusted by Industry Leaders</h2>
-                <div class="social-proof-logos">
-                    <span>[Logo Placeholder 1]</span> <span>[Logo Placeholder 2]</span> <span>[Logo Placeholder 3]</span>
-                </div>
+        <section class="benefits-section">
+            <div class="container">
+                <h2>Why Choose AguyanAI?</h2>
+                <ul class="benefits-list">
+                    <li><span class="icon">✅</span> Autonomous Operation</li>
+                    <li><span class="icon">✅</span> Seamless Integration</li>
+                    <li><span class="icon">✅</span> Enhanced Efficiency</li>
+                    <li><span class="icon">✅</span> Increased Accuracy</li>
+                    <li><span class="icon">✅</span> Adaptive Learning</li>
+                    <li><span class="icon">✅</span> Scalability</li>
+                    <li><span class="icon">✅</span> Domain Expertise</li>
+                     <li><span class="icon">✅</span> Robust Security</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <div class="container">
+                <h2>Trusted by Leading Innovators</h2>
+                <div class="logos"> [Logo1] [Logo2] [Logo3] </div>
                 <blockquote class="testimonial">
-                    "AguyanAI fundamentally changed how we approach integration. The speed and adaptability are unparalleled..."
-                    <cite>— Head of Digital Transformation, Fortune 500 Tech Company</cite>
+                    <p>"AguyanAI transformed our incident response time..."</p>
+                    <footer>- CISO, Tech Company</footer>
                 </blockquote>
             </div>
         </section>
 
-        <section id="final-cta" class="final-cta-section">
+        <section class="final-cta text-center">
             <div class="container">
-                <h2>Begin Your Autonomous Integration Journey</h2>
-                <p style="font-size: 1.1em; max-width:650px; margin: 0 auto 30px auto;">Discover how AguyanAI can connect your systems more intelligently and resiliently than ever before.</p>
-                <a href="demo.html" class="cta-button">Request a Personalized Demo</a>
-                <a href="contact.html" class="cta-button cta-button-secondary">Talk to an Expert</a>
+                <h2>Ready to Transform Your Business with Agentic AI?</h2>
+                <a href="contact.html#demo" class="button button-primary button-large">Request Your Demo Today</a>
+                <p><a href="contact.html">Or contact us with your questions</a></p>
             </div>
         </section>
 
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <div class="container">
-             <p style="font-size: 1.3em; margin-bottom: 20px; color: #FFFFFF;">AguyanAI</p>
-            <ul>
-                <li><a href="platform.html">Platform</a></li> <li><a href="solutions.html">Solutions</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="company.html">Company</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-             <ul>
-                <li><a href="privacy.html">Privacy Policy</a></li> <li><a href="terms.html">Terms of Service</a></li>
-                <li><a href="#">Security</a></li> <li><a href="#">Status</a></li> </ul>
-             <div class="social-links" style="margin-top: 20px;">
-                <span>[LI]</span> <span>[TW]</span> <span>[GH]</span>
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>AguyanAI</h3>
+                    <p>Intelligent Autonomy for Your Business.</p>
+                    </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="platform.html">Platform</a></li>
+                        <li><a href="solutions-cybersecurity.html">Cybersecurity</a></li>
+                        <li><a href="solutions-sales.html">Sales</a></li>
+                        <li><a href="solutions-manufacturing.html">Manufacturing</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                         <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                 <div class="footer-contact">
+                     <h4>Contact Us</h4>
+                     <p>Email: <a href="mailto:info@aguyanai.in">info@aguyanai.in</a></p>
+                     <p>Phone: +1 (555) 123-4567</p> </div>
             </div>
-             <p style="margin-top: 25px; font-size: 0.9em;">&copy; 2025 AguyanAI. All Rights Reserved.</p> </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> AguyanAI. All rights reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+         <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
     </footer>
 
-</body>
+    </body>
 </html>
